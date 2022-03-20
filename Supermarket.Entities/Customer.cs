@@ -14,7 +14,7 @@ namespace Supermarket.Entities
         public Guid Id { get; set; }
 
         [DataMember]
-        public string Tile { get; set; }
+        public string Title { get; set; }
 
         [DataMember]
         public string FirstName { get; set; }

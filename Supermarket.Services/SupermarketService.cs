@@ -10,8 +10,8 @@ using System.ServiceModel;
 namespace Supermarket.Services
 {
     [ServiceBehavior(InstanceContextMode=InstanceContextMode.PerCall)]
-    public class SupermarketService : ISupermarketService, IDisposable
-    {
+        public class SupermarketService : ISupermarketService, IDisposable
+        {
         readonly SupermarketDbContext dbContext = new SupermarketDbContext();
        
         public List<Customer> GetCustomers()

@@ -20,7 +20,7 @@ namespace Supermarket.Entities
         public string Name { get; set; }
 
         [DataMember]
-        public double Weight { get; set; }
+        public double? Weight { get; set; }
 
         [DataMember]
         public string Description { get; set; }
